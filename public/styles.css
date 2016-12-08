@@ -62,9 +62,17 @@ h1,h2,h3,h4{
 
 }
 
-.sub-para{
+.main-para-text{
+	padding-top: 10px;
+}
+
+.sub-para p{
 	font-size:60px;
-	padding-top: 50px;
+	padding-top: 150px;
+}
+
+.flyer{
+	height: 300px;
 }
 
 footer{
