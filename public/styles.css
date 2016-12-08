@@ -1,0 +1,76 @@
+body{
+	font-family: fantasy;
+	margin:0;
+	padding:0;
+}
+
+header{
+	background: #a32422;
+	height:75px;
+	margin:0px;
+	padding:0;
+}
+
+h1,h2,h3,h4{
+	margin:0;
+	padding:0;
+}
+
+.bg-img{
+	background-image: url('./images/bg-img.png');
+}
+
+.menu{
+	list-style-type: none;
+	width:100%;
+	margin:0;
+	padding:0;
+	height:40px;
+	background-color: white;
+}
+.menu li{
+	float:right;
+	display:inline-block;
+	padding-top: 8px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	padding-right: 20px;
+}
+
+.menu li a:hover{
+	color: white;
+}
+
+.title{
+	float:left;
+	margin-top:15px;
+}
+
+.main-body{
+	text-align:center;
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+.main-para{
+	font-size:20px;
+	border-right-style:solid;
+
+}
+
+.sub-para{
+	font-size:60px;
+	padding-top: 50px;
+}
+
+footer{
+	background: #a52422;
+	height:130px;
+	margin:0px;
+	padding:0;
+	bottom:0px;
+}
