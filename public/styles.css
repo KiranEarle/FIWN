@@ -5,19 +5,10 @@ body{
 }
 
 header{
-	background: #a32422;
+	background: white;
 	height:75px;
 	margin:0px;
-	padding:0;
-}
-
-h1,h2,h3,h4{
-	margin:0;
-	padding:0;
-}
-
-.bg-img{
-	background-image: url('./images/bg-img.png');
+	padding-bottom:100px;
 }
 
 .menu{
@@ -26,7 +17,6 @@ h1,h2,h3,h4{
 	margin:0;
 	padding:0;
 	height:40px;
-	background-color: white;
 }
 .menu li{
 	float:right;
@@ -46,39 +36,90 @@ h1,h2,h3,h4{
 }
 
 .title{
-	float:left;
-	margin-top:15px;
+	margin-top:20px;
 }
 
 .main-body{
 	text-align:center;
 	padding-top:70px;
 	padding-bottom:70px;
+	background-image: url('./images/bg-img.png');
+}
+
+.main-body-title{
+	padding-bottom: 40px;
+	font-size: 45px;
 }
 
 .main-para{
 	font-size:20px;
 	border-right-style:solid;
-
 }
 
 .main-para-text{
-	padding-top: 10px;
-}
-
-.sub-para p{
-	font-size:60px;
-	padding-top: 150px;
+	padding-top: 70px;
+	font-size: 20px;
 }
 
 .flyer{
 	height: 300px;
 }
 
-footer{
+.centre-divider{
 	background: #a52422;
-	height:130px;
-	margin:0px;
+	height:330px;
+	margin-top: 60px;
 	padding:0;
 	bottom:0px;
+}
+
+.mid-title{
+	text-align:center;
+	padding-top: 12px;
+}
+
+.centre{
+	text-align:center;
+}
+
+.register h2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size:60px;
+}
+
+.register p{
+	font-size: 20px;
+}
+
+.speakers{
+	margin-top:80px;
+}
+
+.speakers h2{
+	padding-bottom:40px;
+	font-size: 45px;
+}
+
+.space-bottom{
+	padding-bottom: 30px;
+}
+
+.speaker-image{
+	width:220px;
+	border-radius: 100px;
+}
+
+.speaker-image-apostle{
+	width: 300px;
+	border-radius: 40%;
+	border-radius: 100px;
+}
+
+.speaker span{
+	font-size:20px;
+}
+
+footer{
+	height: 600px;
 }
